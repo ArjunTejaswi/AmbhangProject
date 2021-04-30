@@ -43,6 +43,74 @@ header {
     background-color: #ffffff;
     z-index: 999;
 }
+blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #5c5e61;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+.conText{
+    margin: 0;
+    color: #383737;
+    text-align: center;
+}
+.Display{
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: cursive;
+    color: #5c5e5f;
+}
+.subtitle{
+    margin-bottom: 1rem;
+
+    font-size: 1.25rem;
+    font-family: cursive;
+}
 .main-nav{
     display: flex;
     justify-content: space-around;
@@ -694,7 +762,7 @@ section#people-saying {
 .footer-second .email-adress, .footer-second .email-adress:focus {
     background-color: #ffffff;
     color: #888585;
-    height: 40px;
+    height: 39px;
     font-size: 12px;
     line-height: 20px;
     width: 262px;
@@ -766,4 +834,12 @@ p.copyright {
 li.course a:hover {
     color: #3fb9df;
 }
-
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
