@@ -102,14 +102,13 @@ blurb h2 {
     font-size: 5rem;
     font-weight: 300;
     line-height: 1.2;
-    font-family: cursive;
+    font-family: 'Spartan-Bold';
     color: #5c5e5f;
 }
 .subtitle{
     margin-bottom: 1rem;
-
     font-size: 1.25rem;
-    font-family: cursive;
+    font-family: 'Spartan-Regular';
 }
 .main-nav{
     display: flex;
@@ -743,9 +742,11 @@ section#people-saying {
     color: #fff;
     font-family: 'Spartan-Bold';
 }
-.footer-second span, .first-footer-content.footer-second li {
+.footer-second span, .first-footer-content.footer-second li,
+.first-footer-content.footer-second li a {
     color: #ffffff!important;
     font-family: 'Spartan-Bold';
+    text-decoration: none!important;
 }
 .footer-second li {
     color: rgba(255,255,255,0.75);
@@ -848,7 +849,7 @@ ul.sub-sec li a:hover {
     padding: 90px 0;
 }
 .outer-section{
-    background-color:  #020d26;
+    background-color:  #97cf5f;
     padding-top: 67px;
     padding-right: 70px;
     padding-bottom: 50px;
@@ -919,12 +920,12 @@ label.form-content {
     font-size: 14px;
     line-height: 24px;
     border: 1px solid;
-    background: #020d26;
+    background: #0097cd;
 }
-.submit-btn button:hover{
-    background-color: #ffffff;
-    color: #020d26;
-    border: 1px solid #020d26;
+.submit-btn button:hover {
+    background-color: #0097cd;
+    color: #ffffff;
+    border: 1px solid #0097cd;
 }
 .section-title h2 {
     font-size: 30px;
