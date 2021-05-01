@@ -48,17 +48,16 @@ blurb h2 {
    font-weight: 100;
    font-size: 2.5rem;
 }
-
 .blurb p {
-    color: #5c5e61;
+    color: #333333;
     font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Spartan-Light';
 }
-
 .content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #mainNavbar {
@@ -1011,4 +1010,18 @@ ul.list-item {
     .blurb h2 {
         font-size: 2rem;
     }
+}
+.about-us .row.align-items-center.content{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+section.jumbotron.about-us-sec {
+    padding: 70px 0 20px;
+}
+
+.about-us h2 {
+    font-size: 30px;
+    line-height: 38px;
+    font-family: 'Spartan-Medium';
+    margin-bottom: 15px;
 }
