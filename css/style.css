@@ -281,7 +281,7 @@ section.our-services {
     background-color: #f7f7f7;
 }
 ul.sub-sec, .gallery ul {
-    left: 530px;
+    left: 410px;
     display: block;
     position: fixed;
     top: 65px;
@@ -296,8 +296,9 @@ ul.sub-sec, .gallery ul {
     transform: translateY(100%);
     border-radius: 5px;
 }
-.sub-sec.gallery-sec{
-    left: 820px!important;
+.sub-sec.gallery-sec {
+    left: 720px!important;
+    width: 200px;
 }
 .course:hover > ul.sub-sec, .gallery:hover > ul{
     opacity: 1;
@@ -333,7 +334,8 @@ ul.sub-sec, .gallery ul {
     text-decoration: none!important;
 }
 .main-nav img {
-    width: 10%;
+    width: 8%;
+    height: 90px;
 }
 .home-banner.owl-theme .owl-dots .owl-dot{
     outline: none!important;
