@@ -1027,3 +1027,9 @@ section.jumbotron.about-us-sec {
     font-family: 'Spartan-Medium';
     margin-bottom: 15px;
 }
+.jumbotron.about-us-sec .row {
+    margin: 0;
+}
+.home-banner a {
+    text-decoration: none!important;
+}
