@@ -27,15 +27,7 @@
                         </li>
                         <li class="course"><a href="Downloads.html">DOWNLOADS</a>
                         </li>
-                        <li class="course new-course1"><a aria-expanded="true" class="nav-item nav-link hvr-underline-from-center new-nav" data-target="#" data-toggle="dropdown" href="" role="button">GALLERY</a>
-                            <ul class="dropdown-menu multi-level1" role="menu">
-                                <li class="inner-shop-right">
-                                    <ul class="menu_ul">
-                                        <li><a href="Gallery.html">PHOTO GALLERY</a></li>
-                                        <li><a href="">VIDEO GALLERY</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <li class="course"><a href="Gallery.html">GALLERY</a>
                         </li>
                         <li class="course"><a href="contact-us.html">CONTACT US</a>
                         </li>
@@ -310,63 +302,6 @@
         $('#modal-img').attr('src',img.attr('src'))
         $('#image_expand').modal('show')
     })
-</script>
-
-<script>
-    $('#banner-slider').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay:true,
-        smartSpeed: 2000,
-        autoplayTimeout: 6000,
-        slideTransition: 'linear',
-        autoplayHoverPause:false
-    })
-    $('#service-slider').owlCarousel({
-        items: 1,
-        loop:true,
-        margin:20,
-        nav:true,
-        // responsive:{
-        //     0:{
-        //         items:1
-        //     },
-        //     600:{
-        //         items:3
-        //     },
-        //     1000:{
-        //         items:5
-        //     }
-        // }
-    })
-    $('#testimonial').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay:false,
-        smartSpeed: 1000,
-        autoplayTimeout: 6000,
-        slideTransition: 'linear',
-        autoplayHoverPause:false
-    })
-    $('#testimonial-slide').owlCarousel({
-        items: 3,
-        loop: true,
-        autoplay:false,
-        smartSpeed: 2000,
-        autoplayTimeout: 6000,
-        slideTransition: 'linear',
-        autoplayHoverPause:false
-    })
-    $(".new-course").on("click", function () {
-        if ($(".multi-level1").hasClass('open')) {
-            $(".multi-level2").toggleClass("open");
-        }
-    });
-    $(".new-course1").on("click", function () {
-        if ($(".multi-level2").hasClass('open')) {
-            $(".multi-level1").toggleClass("open");
-        }
-    });
 </script>
 </body>
 </html>

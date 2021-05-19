@@ -98,10 +98,17 @@ blurb h2 {
     text-align: center;
 }
 .Display{
+    font-size: 7rem!important;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: ui-rounded;
+    color: #5c5e5f;
+}
+.Display-2{
     font-size: 8rem!important;
     font-weight: 300;
     line-height: 1.2;
-    font-family: 'Spartan-Regular';
+    font-family: ui-rounded;
     color: #5c5e5f;
 }
 .subtitle{
@@ -1045,6 +1052,10 @@ section.jumbotron.about-us-sec {
     padding: 70px 0 30px;
     background-image: linear-gradient(to bottom, #56ab2f, #a8e063);
 }
+section.jumbotron.services-sec {
+    padding: 70px 0 30px;
+    background-image: linear-gradient(to bottom, #de6262 , #ffb88c);
+}
 
 .about-us h2 {
     font-size: 30px;
@@ -1191,6 +1202,7 @@ ul.inner-list {
     margin-top: 25px;
 }
 section.terms {
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 li.course {
