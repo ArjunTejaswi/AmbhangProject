@@ -1021,15 +1021,15 @@ ul.list-item {
         font-size: 2rem;
     }
 }
-.about-us .row.align-items-center.content{
+.about-us .row.align-items-center.content {
     margin-right: 0!important;
     margin-left: 0!important;
+    margin: 0;
 }
 section.jumbotron.about-us-sec {
     padding: 70px 0 30px;
     background-image: linear-gradient(to bottom, #56ab2f, #a8e063);
 }
-
 .about-us h2 {
     font-size: 30px;
     line-height: 38px;
@@ -1379,6 +1379,7 @@ section#header {
     line-height: 28px;
     letter-spacing: 0.28px;
     margin-bottom: 0;
+    font-family: 'Spartan-Regular';
 }
 .row.about-content {
     padding-top: 50px;
