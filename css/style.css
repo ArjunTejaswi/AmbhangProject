@@ -267,7 +267,7 @@ button.buy-theme {
     width: 5%;
 }
 .our-services .card-head img {
-    width: 25%!important;
+    width: 50%!important;
     padding: 40px 0 5px;
 }
 .our-services .card-head, .our-services .card-body{
@@ -1074,8 +1074,9 @@ section.gallery-sec {
     background: #b5b1b185;
     border-radius: 50%;
 }
-.gallery-sec .card{
+.gallery-sec .card {
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .gallery-sec ul.pages {
     margin-top: 30px;
