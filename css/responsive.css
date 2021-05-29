@@ -76,6 +76,17 @@
 
 }
 @media(max-width: 991px) {
+    .about-us h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .new-about{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .service-des {
+        margin-top: 30px;
+    }
     .testimonial-inner::before {
         display: none;
     }
@@ -183,6 +194,24 @@
 
 }
 @media(max-width: 767px) {
+    .row.about-content {
+        padding-top: 30px;
+    }
+    .about-us-inner .lead {
+        margin-bottom: 30px;
+    }
+    .about-us-inner {
+        padding-bottom: 30px;
+    }
+    .about-us h2 {
+        margin-bottom: 10px;
+    }
+    .service-des {
+        margin-top: 20px;
+    }
+    section#gallery {
+        margin: 30px 0;
+    }
     .gallery-sec {
         padding: 30px 0;
     }
@@ -313,6 +342,32 @@
 
 }
 @media(max-width: 480px) {
+    .row.about-content {
+        padding-top: 20px;
+    }
+    .about-us-inner .lead {
+        margin-bottom: 15px;
+    }
+    .about-us h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .about-us-inner .lead {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0;
+    }
+    .about-us h2 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .service-des {
+        margin-top: 15px;
+    }
+    section#gallery {
+        margin: 20px 0;
+    }
     .gallery-sec ul.pages {
         margin-top: 0px;
     }
@@ -355,6 +410,13 @@
     }
 }
 @media(max-width: 400px) {
+    .about-us h2 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .row.about-content {
+        padding-top: 25px;
+    }
     .inner-drop-office h2 {
         font-size: 22px;
         line-height: 26px;

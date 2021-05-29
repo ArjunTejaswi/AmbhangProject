@@ -10,7 +10,7 @@
     <link rel="manifest" href="css/site.webmanifest">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
@@ -26,38 +26,12 @@
             </div>
             <div class="nav-items">
                 <ul class="nav-item-list">
-                    <li class="course"><a href="/Home">HOME</a>
-                    </li>
-                    <li class="course"><a href="/About-Us">ABOUT US</a>
-                    </li>
-                    <li class="course new-course"><a href="">SERVICES</a>
-                        <!--                        <ul class="dropdown-menu multi-level2" role="menu">-->
-                        <!--                            <li class="inner-shop-right">-->
-                        <!--                                <ul class="menu_ul">-->
-                        <!--                                    <li><a href="">MANPOWER SUPPLY</a></li>-->
-                        <!--                                    <li><a href="">MECHANICAL SERVICES</a></li>-->
-                        <!--                                    <li><a href="">BLASTING & PAINTING SERVICES</a></li>-->
-                        <!--                                    <li><a href="">DUCTING SERVICES</a></li>-->
-                        <!--                                    <li><a href="">FRP COATING SERVICES</a></li>-->
-                        <!--                                    <li><a href="">INSULATION SERVICES</a></li>-->
-                        <!--                                </ul>-->
-                        <!--                            </li>-->
-                        <!--                        </ul>-->
-                    </li>
-                    <li class="course"><a href="/Downloads">DOWNLOADS</a>
-                    </li>
-                    <li class="course new-course1"><a href="">GALLERY</a>
-                        <!--                        <ul class="dropdown-menu multi-level1" role="menu">-->
-                        <!--                            <li class="inner-shop-right">-->
-                        <!--                                <ul class="menu_ul">-->
-                        <!--                                    <li><a href="/Gallery">PHOTO GALLERY</a></li>-->
-                        <!--                                    <li><a href="">VIDEO GALLERY</a></li>-->
-                        <!--                                </ul>-->
-                        <!--                            </li>-->
-                        <!--                        </ul>-->
-                    </li>
-                    <li class="course"><a href="/Contact-Us">CONTACT US</a>
-                    </li>
+                    <li class="course"><a href="home.html">HOME</a></li>
+                    <li class="course"><a href="About-Us.html">ABOUT US</a></li>
+                    <li class="course new-course"><a href="services.html">SERVICES</a></li>
+                    <li class="course"><a href="Downloads.html">DOWNLOADS</a></li>
+                    <li class="course new-course1"><a href="Gallery.html">GALLERY</a></li>
+                    <li class="course"><a href="contact-us.html">CONTACT US</a></li>
                 </ul>
                 <a href="#" title="Filter" class="filter-icon" onclick="openNav()">
                     <span class="icon-bar"></span>
@@ -70,17 +44,17 @@
             <div class="sidenav" id="mySidenav">
                 <div class="sidenav-inner">
                     <ul class="nav-item-list">
-                        <li class="course"><a href="/Home">HOME</a>
+                        <li class="course"><a href="home.html">HOME</a>
                         </li>
-                        <li class="course"><a href="/About-Us">ABOUT US</a>
+                        <li class="course"><a href="About-Us.html">ABOUT US</a>
                         </li>
-                        <li class="course new-course"><a href="">SERVICES</a>
+                        <li class="course new-course"><a href="services.html">SERVICES</a>
                         </li>
-                        <li class="course"><a href="/Downloads">DOWNLOADS</a>
+                        <li class="course"><a href="Downloads.html">DOWNLOADS</a>
                         </li>
-                        <li class="course new-course1"><a href="/Gallery">GALLERY</a>
+                        <li class="course new-course1"><a href="Gallery.html">GALLERY</a>
                         </li>
-                        <li class="course"><a href="/Contact-Us">CONTACT US</a>
+                        <li class="course"><a href="contact-us.html">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
@@ -88,70 +62,45 @@
         </div>
     </div>
 </header>
-<section class="jumbotron about-us-sec">
-    <div class="conText">
-        <div class="row">
-            <div class="col-md  content-wrapper">
-                <h1 class="Display-2">
-                    Our Story
-                </h1>
-                <div class="subtitle">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nam nulla maxime modi cum tempore eligendi reiciendis dolorum recusandae illum eos, nemo obcaecati.</p>
-                </div>
-            </div>
-        </div>
+
+<section id="header" class="jumbotron text-center about-us-sec">
+    <div class="inner-gallery">
+        <h1 class="display-3">Our Story</h1>
+    </div>
+    <div class="subtitle">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nam nulla maxime modi cum tempore eligendi reiciendis dolorum recusandae illum eos, nemo obcaecati.</p>
     </div>
 </section>
+
 <section class="about-us container-fluid px-0">
-    <div class="row align-items-center content">
-        <div class="col-md-6 order-2 order-md-1">
-            <img src="img/a.jpg" alt="" class="img-fluid">
+    <div class="about-us-inner container">
+        <div class="row about-content">
+            <div class="col-md-6">
+                <img src="img/a.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 service-des">
+                <h2>Mission And Vision</h2>
+                <p class="lead">
+                    Our mission is to give our clients the opportunity to acquire the optimum solution in
+                    safe and high quality services to enhance their business profitability and proficiency.
+                </p>
+            </div>
         </div>
-        <div class="col-md-6 text-center order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                    <h2>Mission And Vision</h2>
-                    <p class="lead">Our mission is to give our clients the opportunity to acquire the optimum solution in safe and high quality services to enhance their business profitability and proficiency.                         
-                    </p>
-                </div>
+        <div class="row about-content new-about">
+            <div class="col-md-6 service-des">
+                <h2>Who Are We?</h2>
+                <p class="lead">
+                    Ambang Jaya Engineering & Trading Sdn Bhd (AJETSB) is an oil and gas solution provider based in Malaysia since 2005.
+                    We serve a wide spectrum of essential sectors in Malaysia such as oil & gas, petrochemicals, manufacturing, power plants and utilities.
+                    AJETSB is transforming itself into a corporate company that deepens its existing business and explores into new fields simultaneously.
+                    We continue to tackle the tasks that are necessary to promote the creation of more sustainable world in terms of the environments as well as enabling social and economics progress.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/b.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
-    <div class="row align-items-center content">
-        <div class="col-md-6 text-center">
-            <div class="row justify-content-center">
-                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                    <h2>Who Are We?</h2>
-                    <p class="lead">Ambang Jaya Engineering & Trading Sdn Bhd (AJETSB) is an oil and gas solution provider based in Malaysia since 2005. 
-                        We serve a wide spectrum of essential sectors in Malaysia such as oil & gas, petrochemicals, manufacturing, power plants and utilities. 
-                        AJETSB is transforming itself into a corporate company that deepens its existing business and explores into new fields simultaneously. 
-                        We continue to tackle the tasks that are necessary to promote the creation of more sustainable world in terms of the environments as well as enabling social and economics progress.                        
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <img src="img/b.jpg" alt="" class="img-fluid">
-        </div>
-    </div>
-    <!-- <div class="row align-items-center content">
-        <div class="col-md-6 order-2 order-md-1">
-            <img src="img/c.jpg" alt="" class="img-fluid">
-        </div>
-        <div class="col-md-6 text-center order-1 order-md-2">
-            <div class="row justify-content-center">
-                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                    <h2>MUSEUM OF CANDY</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
-                        beatae, maiores
-                        deserunt
-                        in voluptatibus
-                        aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </section>
 
 <footer class="footer-section">

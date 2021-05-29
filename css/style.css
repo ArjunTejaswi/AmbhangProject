@@ -1033,6 +1033,7 @@ section.jumbotron.about-us-sec {
     line-height: 38px;
     font-family: 'Spartan-Medium';
     margin-bottom: 15px;
+    margin-top: 0;
 }
 .jumbotron.about-us-sec .row {
     margin: 0;
@@ -1148,7 +1149,7 @@ a.btn.btn-outline-success.btn-sm {
     border-color: #28a745;
 }
 section#gallery {
-    margin: 90px 0px 90px 0px;
+    margin: 50px 0px 50px 0px;
 }
 ul.inner-list li a {
     color: white;
@@ -1299,6 +1300,8 @@ section#header {
     justify-content: center;
     align-items: center;
     border-radius: 0;
+    margin-bottom: 0;
+    flex-direction: column;
 }
 .custom-navigation .owl-nav button {
     width: 40px;
@@ -1363,4 +1366,19 @@ section#header {
 }
 .custom-modal-body .owl-dots {
     display: none;
+}
+.about-us-inner .img-fluid {
+    width: 100%;
+}
+.about-us-inner .lead {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.28px;
+    margin-bottom: 0;
+}
+.row.about-content {
+    padding-top: 50px;
+}
+.about-us-inner {
+    padding-bottom: 60px;
 }
