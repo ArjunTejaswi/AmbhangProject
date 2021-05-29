@@ -194,6 +194,22 @@ blurb h2 {
 .banner-section3 {
     background-image: url(Banner3.jpg);
     background-color: #0097cd;
+    background-repeat: round;
+    background-size: cover;
+    min-height: 500px;
+    height: 100%;
+}
+.banner-section4 {
+    background-image: url(Banner4.jpg);
+    background-color: #0097cd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: 100%;
+}
+.banner-section5 {
+    background-image: url(Banner5.jpg);
+    background-color: #0097cd;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;

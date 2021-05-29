@@ -143,7 +143,7 @@
     }
 }
 @media(max-width: 768px) {
-    .banner-section,.banner-section2,.banner-section3 {
+    .banner-section,.banner-section2,.banner-section3,.banner-section4,.banner-section5 {
         min-height: 470px;
     }
     .contact-us {
@@ -249,7 +249,7 @@
     .contact-us {
         padding: 30px 0;
     }
-    .banner-section,.banner-section2,.banner-section3 {
+    .banner-section,.banner-section2,.banner-section3,.banner-section4,.banner-section5 {
         min-height: 300px;
     }
     .contact-us {
@@ -435,7 +435,7 @@
         width: 40px;
         height: 40px;
     }
-    .banner-section,.banner-section3,.banner-section2{
+    .banner-section,.banner-section2,.banner-section3,.banner-section4,.banner-section5 {
         min-height: 300px;
     }
     .banner-content {
