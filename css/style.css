@@ -175,7 +175,23 @@ blurb h2 {
     border-bottom: none!important;
 }
 .banner-section {
-    background-image: url(og-export-terminal.jpg);
+    background-image: url(Banner1.jpg);
+    background-color: #0097cd;
+    background-repeat: round;
+    background-size: cover;
+    min-height: 500px;
+    height: 100%;
+}
+.banner-section2 {
+    background-image: url(Banner2.jpg);
+    background-color: #0097cd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: 100%;
+}
+.banner-section3 {
+    background-image: url(Banner3.jpg);
     background-color: #0097cd;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1284,4 +1300,6 @@ ul.dropdown-menu.multi-level1.show {
     width: 8%;
     max-height: 75px;
 }
-
+.sidenav-inner li.course:hover{
+    background-color: #005179;
+}

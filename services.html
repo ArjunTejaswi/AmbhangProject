@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
     <link rel="apple-touch-icon" sizes="180x180" href="css/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="css/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="css/favicon-16x16.png">
@@ -11,29 +12,80 @@
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 </head>
 <body>
 <header>
     <div class="">
         <nav class="main-nav">
-            <img src="img/FotoJet.jpg">
+            <div class="logo-img">
+                <img src="img/FotoJet.jpg">
+            </div>
             <div class="nav-items">
                 <ul class="nav-item-list">
-                    <li class="course"><a href="home.html">HOME</a>
+                    <li class="course"><a href="/Home">HOME</a>
                     </li>
-                    <li class="course"><a href="About-Us.html">ABOUT US</a>
+                    <li class="course"><a href="/About-Us">ABOUT US</a>
                     </li>
-                    <li class="course"><a href="services.html">SERVICES</a>
+                    <li class="course new-course"><a href="">SERVICES</a>
+                        <!--                        <ul class="dropdown-menu multi-level2" role="menu">-->
+                        <!--                            <li class="inner-shop-right">-->
+                        <!--                                <ul class="menu_ul">-->
+                        <!--                                    <li><a href="">MANPOWER SUPPLY</a></li>-->
+                        <!--                                    <li><a href="">MECHANICAL SERVICES</a></li>-->
+                        <!--                                    <li><a href="">BLASTING & PAINTING SERVICES</a></li>-->
+                        <!--                                    <li><a href="">DUCTING SERVICES</a></li>-->
+                        <!--                                    <li><a href="">FRP COATING SERVICES</a></li>-->
+                        <!--                                    <li><a href="">INSULATION SERVICES</a></li>-->
+                        <!--                                </ul>-->
+                        <!--                            </li>-->
+                        <!--                        </ul>-->
                     </li>
-                    <li class="course"><a href="Downloads.html">DOWNLOADS</a>
+                    <li class="course"><a href="/Downloads">DOWNLOADS</a>
                     </li>
-                    <li class="course"><a href="Gallery.html">GALLERY</a>
+                    <li class="course new-course1"><a href="">GALLERY</a>
+                        <!--                        <ul class="dropdown-menu multi-level1" role="menu">-->
+                        <!--                            <li class="inner-shop-right">-->
+                        <!--                                <ul class="menu_ul">-->
+                        <!--                                    <li><a href="/Gallery">PHOTO GALLERY</a></li>-->
+                        <!--                                    <li><a href="">VIDEO GALLERY</a></li>-->
+                        <!--                                </ul>-->
+                        <!--                            </li>-->
+                        <!--                        </ul>-->
                     </li>
-                    <li class="course"><a href="contact-us.html">CONTACT US</a>
+                    <li class="course"><a href="/Contact-Us">CONTACT US</a>
                     </li>
                 </ul>
+                <a href="#" title="Filter" class="filter-icon" onclick="openNav()">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
             </div>
         </nav>
+        <div class="second-nav">
+            <div class="sidenav" id="mySidenav">
+                <div class="sidenav-inner">
+                    <ul class="nav-item-list">
+                        <li class="course"><a href="/Home">HOME</a>
+                        </li>
+                        <li class="course"><a href="/About-Us">ABOUT US</a>
+                        </li>
+                        <li class="course new-course"><a href="">SERVICES</a>
+                        </li>
+                        <li class="course"><a href="/Downloads">DOWNLOADS</a>
+                        </li>
+                        <li class="course new-course1"><a href="/Gallery">GALLERY</a>
+                        </li>
+                        <li class="course"><a href="/Contact-Us">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
 <section class="jumbotron services-sec">
