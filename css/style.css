@@ -296,15 +296,16 @@ button.buy-theme {
 .our-services .card-body h4 {
     font-size: 18px;
     line-height: 22px;
-    color:#8bc34b;
+    color: #468804;
     font-family: 'Spartan-Regular';
     margin-bottom: 15px;
 }
 .our-services .card-body p {
-    font-size: 15px;
+    font-size: 12px;
     color: #868686;
     line-height: 20px;
     font-family: 'Spartan-Light';
+    text-decoration: underline;
 }
 .our-services .card {
     background-color: #ffffff;
@@ -439,7 +440,7 @@ ul.sub-sec, .gallery ul {
     outline: none!important;
 }
 .footer-section {
-    background-color: #0194cb;
+    background-color: #0099cb;
 }
 .footer-content h2 {
     text-align: center;
@@ -1402,4 +1403,16 @@ section#header {
 }
 .about-us-inner {
     padding-bottom: 60px;
+}
+.alert-image img {
+    max-width: 500px;
+}
+.alert-image {
+    display: flex;
+    justify-content: flex-end;
+}
+.alert-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

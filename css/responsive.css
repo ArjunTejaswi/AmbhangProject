@@ -25,7 +25,6 @@
         padding: 10px 0 0;
     }
     .our-services .card-body p {
-        font-size: 15px;
         line-height: 20px;
     }
     .right-testimonial .owl-dots {
@@ -48,6 +47,9 @@
     }
 }
 @media(max-width: 992px) {
+    .alert-image img {
+        max-width: 450px;
+    }
     .testimonial-section1 h2 {
         font-size: 30px;
         line-height: 36px;
@@ -76,6 +78,12 @@
 
 }
 @media(max-width: 991px) {
+    .alert-outer {
+        flex-direction: column;
+    }
+    .alert-image img {
+        max-width: 100%;
+    }
     .about-us h2 {
         font-size: 24px;
         line-height: 30px;
@@ -285,7 +293,6 @@
         line-height: 20px;
     }
     .our-services .card-body p {
-        font-size: 14px;
         line-height: 18px;
     }
     .our-services .card {
