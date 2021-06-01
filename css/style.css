@@ -1044,9 +1044,12 @@ ul.list-item {
     margin: 0;
 }
 section.jumbotron.about-us-sec {
-    padding: 70px 0 30px;
-    background-image: linear-gradient(to bottom, #56ab2f, #a8e063);
-}
+    padding: 70px 0 70px;
+    background-image: url(about-us.jpg);
+    background-color: #0097cd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;}
 .about-us h2 {
     font-size: 30px;
     line-height: 38px;

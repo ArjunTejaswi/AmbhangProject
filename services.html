@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Services</title>
     <link rel="apple-touch-icon" sizes="180x180" href="css/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="css/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="css/favicon-16x16.png">
@@ -190,7 +190,7 @@
         </div>
         <div class="row about-content align-items-center content">
             <div class="col-md-6">
-                <img src="img/mps.png" alt="" class="img-fluid">
+                <img src="img/mps.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 service-des text-center">
                 <div class="row justify-content-center">
@@ -444,5 +444,26 @@
         </div>
     </div>
 </footer>
+<div class="filter-overlay" onclick="closeNav()"></div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "calc(100% - 60px)";
+        $('html,.no-overlay-display').attr("style","overflow:hidden;height:100%;");
+        $('.filter-overlay').addClass("filter-open");
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        $('html,.no-overlay-display').attr("style","overflow:auto;height:auto;");
+        $('.filter-overlay').removeClass("filter-open");
+    }
+</script>
+</body>
+</html>
 </body>
 </html>
