@@ -538,6 +538,16 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
 <script>
+    $('#banner-slider').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay:true,
+        smartSpeed: 2000,
+        autoplayTimeout: 6000,
+        slideTransition: 'linear',
+        autoplayHoverPause:false
+    })
+    
     function openNav() {
         document.getElementById("mySidenav").style.width = "calc(100% - 60px)";
         $('html,.no-overlay-display').attr("style","overflow:hidden;height:100%;");
@@ -549,76 +559,6 @@
         $('html,.no-overlay-display').attr("style","overflow:auto;height:auto;");
         $('.filter-overlay').removeClass("filter-open");
     }
-    $('#testimonial-slide').owlCarousel({
-        items: 5,
-        loop: true,
-        autoplay:true,
-        smartSpeed: 7000,
-        autoplayTimeout: 4000,
-        slideTransition: 'linear',
-        autoplayHoverPause:false,
-        responsive: {
-            0: {
-                items: 2,
-                margin: 10
-            },
-            575: {
-                items: 3,
-                margin: 15
-            },
-            767: {
-                items: 4,
-                margin: 25
-            },
-            1199: {
-                items: 5,
-                margin: 25
-            }
-        }
-    })
-    $('#banner-slider').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay:false,
-        smartSpeed: 2000,
-        autoplayTimeout: 6000,
-        slideTransition: 'linear',
-        autoplayHoverPause:false
-    })
-    $('#service-slider').owlCarousel({
-    items: 1,
-    loop:true,
-    margin:20,
-    nav:true,
-    responsive: {
-        0: {
-            items: 1,
-            margin: 10
-        },
-        575: {
-            items: 2,
-            margin: 15
-        },
-        767: {
-            items: 2,
-            margin: 25
-        },
-        1199: {
-            items: 3,
-            margin: 25
-        }
-    }
-})
-    $(".new-course").on("click", function () {
-        if ($(".multi-level1").hasClass('open')) {
-            $(".multi-level2").toggleClass("open");
-        }
-    });
-    $(".new-course1").on("click", function () {
-        if ($(".multi-level2").hasClass('open')) {
-            $(".multi-level1").toggleClass("open");
-        }
-    });
 </script>
 </body>
 </html>
